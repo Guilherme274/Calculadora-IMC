@@ -8,10 +8,12 @@ body{
     background-repeat:no-repeat;
     background-position: center;
     background-size: cover;
+    width: 100%;
+    min-height: 100vh;
 }
 
 main{
-    max-width: 280px;
+    max-width: 1200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,6 +27,7 @@ main input{
     border-radius: 10px;
     outline: none;
     font-size: 1.5rem;
+    transition: transform 1s;
 }
 
 main input::placeholder{
@@ -32,17 +35,22 @@ main input::placeholder{
     font-weight: bold;
 }
 
+main input:focus{
+    transform: scale(1.1);
+}
+
 
 
 .main__inputs{
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 15px;
     /* background-color: black; */
     margin: 0 100px;
 }
 
-.main__btnCalcular{
+#main__btnCalcular{
     width: 30rem;
     height: 2.3rem;
     border: 0px solid ;
@@ -50,9 +58,25 @@ main input::placeholder{
     background:linear-gradient(to right, #1AB2F4, #66E845);
     color: white;
     font-size: 2rem;
+    transition: transform 1s;
+}
+
+#main__btnCalcular:hover{
+    transform: scale(1.1);
 }
 
 .main__resultado{
-    display: flex;
-    background-color: white;
+    border: 0 solid;
+    height: 12rem;
+    width: 14rem;
+    border: 0.5px solid rgb(48, 252, 89);
+    border-radius: 100%;
+    align-items: center;
+    padding: 1rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#resultado{
+    margin-top: 4.5rem;
 }
