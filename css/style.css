@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("../imgs/fundo.jpg");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+main{
+    max-width: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20% auto;  
+}
+
+main input{
+    width: 30rem;
+    height: 2rem;
+    border: solid white;
+    border-radius: 10px;
+    outline: none;
+    font-size: 1.5rem;
+}
+
+main input::placeholder{
+    color: black;
+    font-weight: bold;
+}
+
+
+
+.main__inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* background-color: black; */
+    margin: 0 100px;
+}
+
+.main__btnCalcular{
+    width: 30rem;
+    height: 2.3rem;
+    border: 0px solid ;
+    border-radius: 10px;
+    background:linear-gradient(to right, #1AB2F4, #66E845);
+    color: white;
+    font-size: 2rem;
+}
+
+.main__resultado{
+    display: flex;
+    background-color: white;
+}
