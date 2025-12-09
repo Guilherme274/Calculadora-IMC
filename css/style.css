@@ -12,12 +12,14 @@ body{
     min-height: 100vh;
 }
 
-main{
+
+.main__componentesCalculadora{
     max-width: 1200px;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20% auto;  
+    margin: auto;  
 }
 
 main input{
@@ -28,6 +30,7 @@ main input{
     outline: none;
     font-size: 1.5rem;
     transition: transform 1s;
+    text-align: center;
 }
 
 main input::placeholder{
@@ -38,8 +41,6 @@ main input::placeholder{
 main input:focus{
     transform: scale(1.1);
 }
-
-
 
 .main__inputs{
     display: flex;
@@ -80,3 +81,11 @@ main input:focus{
 #resultado{
     margin-top: 4.5rem;
 }
+
+#mensagemErro{
+    background-color: white;
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+

@@ -10,19 +10,23 @@
 <body>
     <main>
        
-        <section class="main__inputs">
-             <h1>Calculadora de IMC</h1>
-             <input type="number" id="peso" placeholder="Peso (kg)">
-             <input type="number" id="altura" placeholder="Altura (Metros)">
+        <section class="main__componentesCalculadora">
+            <section class="main__inputs">
+                <h1>Calculadora de IMC</h1>
+                <input type="number" name="peso" id="peso" placeholder="Peso (kg)" maxlength="2" >
+                <input type="number" name="altura" id="altura" placeholder="Altura (Metros)" maxlength="4">
 
-            <button id="main__btnCalcular">
-                Calcular
-            </button>
-        </section>
+                <button id="main__btnCalcular">
+                    Calcular
+                </button>
+            </section>
 
-        <section class="main__resultado">
-            <p id="resultado"></p>
+            <section class="main__resultado">
+                <p id="resultado"></p>
+                <p id="resultado2"></p>
+            </section>
         </section>
+        <p id="mensagemErro">errado</p>
 
     </main>
 
