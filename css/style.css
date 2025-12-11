@@ -14,7 +14,7 @@ body{
 
 
 .main__componentesCalculadora{
-    max-width: 75rem;
+    max-width: 1200px;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -23,7 +23,7 @@ body{
 }
 
 main input{
-    width: 90%;
+    width: 105%;
     border: solid white;
     border-radius: 10px;
     outline: none;
@@ -54,11 +54,10 @@ main input:focus{
     gap: 15px;
     /* background-color: black; */
     margin: 0 100px;
-    width: 40%;
 }
 
 #main__btnCalcular{
-    width: 90%;
+    width: 105%;
     height: 2.3rem;
     border: 0px solid ;
     border-radius: 10px;
