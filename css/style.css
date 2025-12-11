@@ -44,7 +44,7 @@ main input::placeholder{
 }
 
 main input:focus{
-    transform: scale(1.1);
+    transform: scale(110%);
 }
 
 .main__inputs{
