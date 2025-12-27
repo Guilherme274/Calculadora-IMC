@@ -95,6 +95,11 @@ main input:focus{
     text-align: center;
 }
 
+.tabelaIMC{
+    margin-left: 30px;
+    width: 40%;
+}
+
 @media (max-width: 950px){
     .main__componentesCalculadora{
         flex-direction: column;
@@ -102,6 +107,10 @@ main input:focus{
 
     .main__resultado{
         margin-top: 4rem;
+    }
+
+    .tabelaIMC{
+        margin-top: 30px;
     }
 }
 
